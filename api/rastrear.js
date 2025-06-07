@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
 
   const url = `https://api.braspress.com/v1/tracking/${cnpj}/${notaFiscal}/json`;
-  const auth = 'Basic Y2xpZW50ZTpjbGllbnRl'; // Substitua pela sua base64 de user:senha
+  const auth = 'Basic U01BUlRfUFJEOmkjIzhMJFk0eTJuJTc0N00='; // Substitua pela sua base64 de user:senha
 
   try {
     const braspressRes = await fetch(url, {
